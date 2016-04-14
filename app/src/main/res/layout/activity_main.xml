@@ -10,10 +10,6 @@
     android:orientation="vertical"
     tools:context="id.its.yaumiapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,5 +20,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:text="Push Me Profile"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="Send Me Notif"/>
 
 </LinearLayout>
